@@ -4,3 +4,4 @@ scikit-learn
 matplotlib
 crewai
 pre-commit
+tensorflow
