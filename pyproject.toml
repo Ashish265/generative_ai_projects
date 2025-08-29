@@ -1,0 +1,16 @@
+[project]
+name = "tensorflow in action"
+version = "2.20"
+description = "tensorflow 2"
+authors = [
+    {name = "Ashish265",email = "ashishgupta2692@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
