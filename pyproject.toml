@@ -1,13 +1,21 @@
 [project]
-name = "tensorflow in action"
+name = "tensorflow-in-action"
 version = "2.20"
 description = "tensorflow 2"
 authors = [
     {name = "Ashish265",email = "ashishgupta2692@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.14"
 dependencies = [
+    "pandas (>=2.3.2,<3.0.0)",
+    "tensorflow (>=2.20.0,<3.0.0)",
+    "crewai (>=0.165.1,<0.166.0)",
+    "numpy (>=2.3.2,<3.0.0)",
+    "pre-commit (>=4.3.0,<5.0.0)",
+    "scikit-learn (>=1.7.1,<2.0.0)",
+    "pydot (>=4.0.1,<5.0.0)",
+    "graphviz (>=0.21,<0.22)"
 ]
 
 
